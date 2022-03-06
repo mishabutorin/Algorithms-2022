@@ -156,5 +156,6 @@ fun sortSequence(inputName: String, outputName: String) {
 fun <T : Comparable<T>> mergeArrays(first: Array<T>, second: Array<T?>) {
     for (i in first.indices) second[i] = first[i]
     second.sort()
+    //
 }
 
